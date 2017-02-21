@@ -97,15 +97,11 @@ def test_cocoscorer():
 
     gts = {
         '184321':[
-        {u'image_id': '184321', u'cap_id': 0, u'caption': u'A train traveling down tracks next to lights.',
-         'tokenized': 'a train traveling down tracks next to lights'},
-        {u'image_id': '184321', u'cap_id': 1, u'caption': u'A train coming down the tracks arriving at a station.',
-         'tokenized': 'a train coming down the tracks arriving at a station'}],
+        {u'image_id': '184321', u'cap_id': 0, u'caption': u'A train traveling down tracks next to lights.'},
+        {u'image_id': '184321', u'cap_id': 1, u'caption': u'A train coming down the tracks arriving at a station.'}],
         '81922': [
-        {u'image_id': '81922', u'cap_id': 0, u'caption': u'A large jetliner flying over a traffic filled street.',
-         'tokenized': 'a large jetliner flying over a traffic filled street'},
-        {u'image_id': '81922', u'cap_id': 1, u'caption': u'The plane is flying over top of the cars',
-         'tokenized': 'the plan is flying over top of the cars'},]
+        {u'image_id': '81922', u'cap_id': 0, u'caption': u'A large jetliner flying over a traffic filled street.'},
+        {u'image_id': '81922', u'cap_id': 1, u'caption': u'The plane is flying over top of the cars'},]
         }
         
     samples = {
